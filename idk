@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("(TSD_DOGE) FORCE TRADE CURRENT STATUS: OWNER", "Ocean")
+
+local FORCETRADE = Window:NewTab("FORCE TRADE")
+local FORCETRADESection = FORCETRADE:NewSection("FORCE TRADE")
+
+FORCETRADESection:NewButton("FORCETRADE", "SCAM!!", function()
+    print("Clicked")
+end)
